@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: "GangOfThree";
-    src: url("/fonts/go3v2.ttf");
+    src: url("../../fonts/go3v2.ttf");
 }
 
 .btn:hover {
@@ -89,7 +89,7 @@ li {
     header {
         height: 440px;
         width: 100%;
-        background-image: url("/img/bg-header_mobile.jpg");
+        background-image: url('../../img/bg-header_mobile.jpg');
         background-position: center center;
         background-size: cover;
         background-attachment: fixed;
@@ -338,7 +338,7 @@ li {
             justify-content: center;
             align-items: center;
             font-size: 2.2em;
-            font-family: 'ohayo', sans-serif, Arial;
+            font-family: 'GangOfthree', sans-serif, Arial;
             position: relative;
             transform-style: preserve-3d; 
     
@@ -362,7 +362,7 @@ li {
         }
 
         #figSushi {
-            background-image: url("/img/bowl_card.jpg");
+            background-image: url("../../img/bowl_card.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 288px;
@@ -373,7 +373,7 @@ li {
         }
 
         #figTaco {
-            background-image: url("/img/accompagnement_card.jpg");
+            background-image: url("../../img/accompagnement_card.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 288px;
@@ -385,7 +385,7 @@ li {
         }
 
         #figBowls {
-            background-image: url("/img/dessert_card.jpg");
+            background-image: url("../../img/dessert_card.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 288px;
@@ -396,7 +396,7 @@ li {
         }
 
         #figBox {
-            background-image: url("/img/boxMobile_card.jpg");
+            background-image: url("../../img/boxMobile_card.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 288px;
@@ -407,7 +407,7 @@ li {
         }
 
         #figMenu {
-            background-image: url("/img/menuMobile_card.jpg");
+            background-image: url("../../img/menuMobile_card.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             width: 288px;
@@ -755,6 +755,7 @@ li {
     }
 
     #about2::before {
+        font-family: 'Roboto', sans-serif;
         content: "2";
         position: absolute;
         border-radius: 50%;
@@ -1310,7 +1311,7 @@ li {
 #category {
 
     #figBox {
-        background-image: url("/img/boxTablette_card.jpg");
+        background-image: url("../../img/boxTablette_card.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 616px;
@@ -1321,7 +1322,7 @@ li {
     }
 
     #figMenu {
-        background-image: url("/img/menuTablette_card.jpg");
+        background-image: url("../../img/menuTablette_card.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 616px;
@@ -1655,7 +1656,7 @@ li {
 /* -------------------------------------------------------------------------- */
 
     header {
-        background-image: url("/img/bg-header.jpg");
+        background-image: url("../../img/bg-header.jpg");
 
 /* -------------------------------------------------------------------------- */
 /*                                  NAV MOBILE                                */
@@ -1718,7 +1719,7 @@ li {
 #category {
 
     #figBox {
-        background-image: url("/img/boxDesktop_card.jpg");
+        background-image: url("../../img/boxDesktop_card.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 452px;
@@ -1729,7 +1730,7 @@ li {
     }
 
     #figMenu {
-        background-image: url("/img/menuDesktop_card.jpg");
+        background-image: url("../../img/menuDesktop_card.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         width: 452px;
